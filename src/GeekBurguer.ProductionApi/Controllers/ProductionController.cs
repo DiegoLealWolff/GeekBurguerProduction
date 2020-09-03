@@ -5,7 +5,7 @@ using GeekBurguer.Contracts;
 
 namespace GeekBurguer.ProductionApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] 
     [Produces("application/json")]
     [ApiController]
     public class ProductionController : ControllerBase
